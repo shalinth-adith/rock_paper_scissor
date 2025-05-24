@@ -33,6 +33,7 @@ struct ContentView: View {
     @State private var checkAnswer: Bool = false
     @State private var scoreTitle : String = ""
     @State private var showFinalScore: Bool = false
+    @State private var scoreMessage : String = ""
     
     var body: some View {
         ZStack{
@@ -42,54 +43,84 @@ struct ContentView: View {
                 Text("Rock Paper Scissor")
                     .titleStyle()
                 Spacer()
-                Text("Your Score : \(score)")
-                Text("Questions Asked : \(questionsCount)")
+                Text("Questions  : \(questionsCount)")
                 Spacer()
                 //Button(action: {
-                  //  self.answers = ["Rock" , "Paper" , "Scissor"].shuffled()
-                    //self.correctAnswer = Int.random(in: 0...2)
-                    //self.questionsCount += 1
-                    
+                //  self.answers = ["Rock" , "Paper" , "Scissor"].shuffled()
+                //self.correctAnswer = Int.random(in: 0...2)
+                //self.questionsCount += 1
+                
                 //})
                 ForEach(0..<3){ number in
                     Button{
                         ansTapped(number)
                     }label: {
                         Text(answers[number])
-                            .clipShape(.rect(cornerRadius:10))
+                            .font(.title)
+
                             .padding(10)
                             .foregroundStyle(.black)
-                            .shadow(radius: 5)
-                            .font(.title)
                             .background(.ultraThinMaterial)
+                            .clipShape(.rect(cornerRadius:20))
+
+                        
                     }
                     Spacer()
                     
                 }
-                    
+                Text("Score : \(score)" )
+                    .foregroundStyle(.black)
+                    .font(.title.bold())
+                
                 
                 
             }
             .padding()
+            
+        }
+        
+        
+        .alert(scoreTitle, isPresented: $showingScore) {
+            Button("Continue", action: askQuestions)
+        } message: {
+            Text("Your score is: \(scoreMessage)")
+        }
+        .alert("Game Over", isPresented: $showFinalScore) {
+            Button("Restart", action: resetGame)
+        } message: {
+            Text("Your final score is: \(score) out of 10")
         }
     }
+
+        
+    
         func ansTapped(_ number: Int) {
             questionsCount = questionsCount + 1
             if number == correctAnswer {
                 scoreTitle = "Correct Answer"
                 score += 1
+                scoreMessage = "The correct answer is \(answers[correctAnswer])"
             } else {
                 scoreTitle = "Wrong"
+                scoreMessage = "The correct answer is \(answers[correctAnswer])"
             }
 
             if questionsCount == 10 {
                 showFinalScore = true
+            }else{
+                showingScore = true
             }
         }
         func askQuestions() {
             answers.shuffle()
             correctAnswer = Int.random(in: 0...2)
         }
+        func resetGame() {
+        score = 0
+        questionsCount = 0
+        showFinalScore = false
+        askQuestions()
+    }
     
 }
 
