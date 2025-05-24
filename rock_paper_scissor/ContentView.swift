@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var answers = ["Rock" , "Paper" , "Scissor"].shuffled()
+    @State private var correctAnswer = Int.random(in: 0...2)
+    @State private var score = 0
+    @State private var showingScore = false
+    @State private var questionsCount = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack{
+            Color.secondary
+            .ignoresSafeArea()
+            VStack {
+                Text("Hello, world!")
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
