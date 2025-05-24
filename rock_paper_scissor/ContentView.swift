@@ -27,6 +27,7 @@ extension View {
 struct ContentView: View {
     @State private var answers = ["Rock" , "Paper" , "Scissor"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
+    @State private var shouldWin = Bool.random()
     @State private var score = 0
     @State private var showingScore = false
     @State private var questionsCount = 0
@@ -37,7 +38,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack{
-            Color.secondary
+            Color.indigo
                 .ignoresSafeArea()
             VStack {
                 Text("Rock Paper Scissor")
@@ -94,15 +95,24 @@ struct ContentView: View {
 
         
     
-        func ansTapped(_ number: Int) {
-            questionsCount = questionsCount + 1
-            if number == correctAnswer {
-                scoreTitle = "Correct Answer"
+    func ansTapped(_ playerChoice: Int) {
+        questionsCount = questionsCount + 1
+            let winMatrix = [
+                0: 2, // Rock beats Scissors
+                1: 0, // Paper beats Rock
+                2: 1  // Scissors beats Paper
+            ]
+            let correctChoice: Int
+               if shouldWin {
+                   correctChoice = winMatrix.first(where: { $0.value == correctAnswer })!.key
+               } else {
+                   correctChoice  = winMatrix[correctAnswer]!
+               }
+            if playerChoice == correctChoice {
                 score += 1
-                scoreMessage = "The correct answer is \(answers[correctAnswer])"
-            } else {
-                scoreTitle = "Wrong"
-                scoreMessage = "The correct answer is \(answers[correctAnswer])"
+                scoreTitle = "Correct "
+            }else{
+                scoreTitle = "Wrong "
             }
 
             if questionsCount == 10 {
