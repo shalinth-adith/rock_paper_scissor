@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F0404FC12DE1949D006E3793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0404FAB2DE1949C006E3793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0404FB22DE1949C006E3793;
+			remoteInfo = rock_paper_scissor;
+		};
+		F0404FCB2DE1949D006E3793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0404FAB2DE1949C006E3793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0404FB22DE1949C006E3793;
+			remoteInfo = rock_paper_scissor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0404FB32DE1949C006E3793 /* rock_paper_scissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rock_paper_scissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0404FC02DE1949D006E3793 /* rock_paper_scissorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rock_paper_scissorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0404FCA2DE1949D006E3793 /* rock_paper_scissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rock_paper_scissorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F0404FB52DE1949C006E3793 /* rock_paper_scissor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = rock_paper_scissor;
+			sourceTree = "<group>";
+		};
+		F0404FC32DE1949D006E3793 /* rock_paper_scissorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = rock_paper_scissorTests;
+			sourceTree = "<group>";
+		};
+		F0404FCD2DE1949D006E3793 /* rock_paper_scissorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = rock_paper_scissorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0404FB02DE1949C006E3793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FBD2DE1949D006E3793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FC72DE1949D006E3793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0404FAA2DE1949C006E3793 = {
+			isa = PBXGroup;
+			children = (
+				F0404FB52DE1949C006E3793 /* rock_paper_scissor */,
+				F0404FC32DE1949D006E3793 /* rock_paper_scissorTests */,
+				F0404FCD2DE1949D006E3793 /* rock_paper_scissorUITests */,
+				F0404FB42DE1949C006E3793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0404FB42DE1949C006E3793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0404FB32DE1949C006E3793 /* rock_paper_scissor.app */,
+				F0404FC02DE1949D006E3793 /* rock_paper_scissorTests.xctest */,
+				F0404FCA2DE1949D006E3793 /* rock_paper_scissorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0404FB22DE1949C006E3793 /* rock_paper_scissor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0404FD42DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissor" */;
+			buildPhases = (
+				F0404FAF2DE1949C006E3793 /* Sources */,
+				F0404FB02DE1949C006E3793 /* Frameworks */,
+				F0404FB12DE1949C006E3793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F0404FB52DE1949C006E3793 /* rock_paper_scissor */,
+			);
+			name = rock_paper_scissor;
+			packageProductDependencies = (
+			);
+			productName = rock_paper_scissor;
+			productReference = F0404FB32DE1949C006E3793 /* rock_paper_scissor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0404FBF2DE1949D006E3793 /* rock_paper_scissorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0404FD72DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissorTests" */;
+			buildPhases = (
+				F0404FBC2DE1949D006E3793 /* Sources */,
+				F0404FBD2DE1949D006E3793 /* Frameworks */,
+				F0404FBE2DE1949D006E3793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0404FC22DE1949D006E3793 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0404FC32DE1949D006E3793 /* rock_paper_scissorTests */,
+			);
+			name = rock_paper_scissorTests;
+			packageProductDependencies = (
+			);
+			productName = rock_paper_scissorTests;
+			productReference = F0404FC02DE1949D006E3793 /* rock_paper_scissorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0404FC92DE1949D006E3793 /* rock_paper_scissorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0404FDA2DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissorUITests" */;
+			buildPhases = (
+				F0404FC62DE1949D006E3793 /* Sources */,
+				F0404FC72DE1949D006E3793 /* Frameworks */,
+				F0404FC82DE1949D006E3793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0404FCC2DE1949D006E3793 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0404FCD2DE1949D006E3793 /* rock_paper_scissorUITests */,
+			);
+			name = rock_paper_scissorUITests;
+			packageProductDependencies = (
+			);
+			productName = rock_paper_scissorUITests;
+			productReference = F0404FCA2DE1949D006E3793 /* rock_paper_scissorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0404FAB2DE1949C006E3793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F0404FB22DE1949C006E3793 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F0404FBF2DE1949D006E3793 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0404FB22DE1949C006E3793;
+					};
+					F0404FC92DE1949D006E3793 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0404FB22DE1949C006E3793;
+					};
+				};
+			};
+			buildConfigurationList = F0404FAE2DE1949C006E3793 /* Build configuration list for PBXProject "rock_paper_scissor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0404FAA2DE1949C006E3793;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0404FB42DE1949C006E3793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0404FB22DE1949C006E3793 /* rock_paper_scissor */,
+				F0404FBF2DE1949D006E3793 /* rock_paper_scissorTests */,
+				F0404FC92DE1949D006E3793 /* rock_paper_scissorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0404FB12DE1949C006E3793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FBE2DE1949D006E3793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FC82DE1949D006E3793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0404FAF2DE1949C006E3793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FBC2DE1949D006E3793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404FC62DE1949D006E3793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0404FC22DE1949D006E3793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0404FB22DE1949C006E3793 /* rock_paper_scissor */;
+			targetProxy = F0404FC12DE1949D006E3793 /* PBXContainerItemProxy */;
+		};
+		F0404FCC2DE1949D006E3793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0404FB22DE1949C006E3793 /* rock_paper_scissor */;
+			targetProxy = F0404FCB2DE1949D006E3793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0404FD22DE1949D006E3793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0404FD32DE1949D006E3793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0404FD52DE1949D006E3793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0404FD62DE1949D006E3793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0404FD82DE1949D006E3793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rock_paper_scissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rock_paper_scissor";
+			};
+			name = Debug;
+		};
+		F0404FD92DE1949D006E3793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rock_paper_scissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rock_paper_scissor";
+			};
+			name = Release;
+		};
+		F0404FDB2DE1949D006E3793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rock_paper_scissor;
+			};
+			name = Debug;
+		};
+		F0404FDC2DE1949D006E3793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adithyan.shalinth.rock-paper-scissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rock_paper_scissor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0404FAE2DE1949C006E3793 /* Build configuration list for PBXProject "rock_paper_scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0404FD22DE1949D006E3793 /* Debug */,
+				F0404FD32DE1949D006E3793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0404FD42DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0404FD52DE1949D006E3793 /* Debug */,
+				F0404FD62DE1949D006E3793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0404FD72DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0404FD82DE1949D006E3793 /* Debug */,
+				F0404FD92DE1949D006E3793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0404FDA2DE1949D006E3793 /* Build configuration list for PBXNativeTarget "rock_paper_scissorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0404FDB2DE1949D006E3793 /* Debug */,
+				F0404FDC2DE1949D006E3793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0404FAB2DE1949C006E3793 /* Project object */;
+}
